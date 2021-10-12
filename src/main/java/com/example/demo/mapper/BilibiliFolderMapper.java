@@ -3,12 +3,11 @@ package com.example.demo.mapper;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.demo.pojo.TwitchUser;
+import com.example.demo.pojo.BilibiliFolder;
 
 /**
  * @author Ho
  */
-@DS("one")
-public interface TwitchUserMapper extends BaseMapper<TwitchUser> {
-
+@DS("two")
+public interface BilibiliFolderMapper extends BaseMapper<BilibiliFolder> {
 }
